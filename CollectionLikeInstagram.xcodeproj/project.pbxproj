@@ -14,6 +14,7 @@
 		4481CFAB27EC50FB00384E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4481CFAA27EC50FB00384E4C /* Assets.xcassets */; };
 		4481CFAE27EC50FB00384E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4481CFAC27EC50FB00384E4C /* LaunchScreen.storyboard */; };
 		4481CFBA27EC54E500384E4C /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481CFB927EC54E500384E4C /* ViewController+Ext.swift */; };
+		4481CFBD27EC600300384E4C /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481CFBC27EC600300384E4C /* CircleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4481CFAD27EC50FB00384E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4481CFAF27EC50FB00384E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4481CFB927EC54E500384E4C /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
+		4481CFBC27EC600300384E4C /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4481CFB827EC51D900384E4C /* Extension */,
 				4481CFB627EC51BA00384E4C /* Controller */,
 				4481CFB727EC51CD00384E4C /* View */,
+				4481CFBB27EC5F7900384E4C /* Cell */,
 			);
 			path = CollectionLikeInstagram;
 			sourceTree = "<group>";
@@ -100,6 +103,14 @@
 				4481CFB927EC54E500384E4C /* ViewController+Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		4481CFBB27EC5F7900384E4C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4481CFBC27EC600300384E4C /* CircleCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4481CFA627EC50F900384E4C /* ViewController.swift in Sources */,
+				4481CFBD27EC600300384E4C /* CircleCollectionViewCell.swift in Sources */,
 				4481CFA227EC50F900384E4C /* AppDelegate.swift in Sources */,
 				4481CFBA27EC54E500384E4C /* ViewController+Ext.swift in Sources */,
 				4481CFA427EC50F900384E4C /* SceneDelegate.swift in Sources */,
