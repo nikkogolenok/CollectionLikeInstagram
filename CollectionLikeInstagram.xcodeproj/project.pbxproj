@@ -56,8 +56,8 @@
 		4481CFA027EC50F900384E4C /* CollectionLikeInstagram */ = {
 			isa = PBXGroup;
 			children = (
-				4481CFB827EC51D900384E4C /* Extension */,
 				4481CFB527EC519300384E4C /* SupportFiles */,
+				4481CFB827EC51D900384E4C /* Extension */,
 				4481CFB627EC51BA00384E4C /* Controller */,
 				4481CFB727EC51CD00384E4C /* View */,
 			);
